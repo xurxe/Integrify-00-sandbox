@@ -1,0 +1,135 @@
+This file contains my notes for Integrify 22.jan.2018!
+
+1. Install Visual Studio Code (VSC)
+
+2. Create folder for repository Desktop/Integrify/git-lesson
+
+3. VSC
+	Add git-lesson folder
+	Create index.html file
+
+4. Terminal:
+	git --version —> tells you what version you’re using
+	cd <folder> —> takes you to that folder
+	cd .. —> takes you back one step in the hierarchy
+
+5. Write code on index.html file
+
+6. Save and open file on Chrome
+
+6. Install Node.js
+
+7. Terminal:
+	npm install -g live-server
+
+8. If number 7 doesn’t work, go to VSC:
+	VSC > Extensions > Live Server
+	Install and reload Live Server
+	Then right-click on the html file and select "Open with Live Server"
+
+10. Terminal:
+	git init —> initializes git repository and creates .git subfolder
+	git status —> get current status (note: use this often!)
+	git add index.html —> stages file
+	git add README.rtf
+	git commit -m “Initial commit” —> commits file locally
+	git log —> gets log
+
+11. VSC:
+	Edit and save index.html
+
+12. Terminal:
+	git status —> look, there are modified files!
+
+13. Teacher draws diagram: working directory —> staging area —> committed
+
+14. Terminal:
+	git add index.html —> stage
+	git reset HEAD index.html —> unstage (note: this also resets the README.rtf file)
+	git add index.html —> stage again
+	git add README.rtf
+	git commit -m “Second commit”
+	git log
+	git log --oneline —> neat little summary of the log
+
+15. VSC:
+	Create skills.html file
+
+16. Terminal: 
+	git status
+	git add skills.html
+	git status
+	git commit -m “Added skills.html file”
+	git log --oneline
+
+17. Go to GitHub > + > New repository. I created one called git-lesson, the teacher created one called portfolio
+
+18. Terminal:
+	git remote add origin https://github.com/xurxe/git-lesson.git
+	git push -u origin master
+
+19. Go to https://github.com/xurxe/git-lesson/commits and check it’s all there!
+
+20. VSC:
+	Create contact.html
+	Create projects.html
+
+21. Terminal:
+	git add . —> add everything in the current folder
+	git commit -m "Added contact.html and projects.html"
+
+22. VSC:
+	Create folders:  html, css, js, assets.
+	Move all html files (except index.html) into html folder
+
+23. Terminal:
+	git add .
+	git commit -m "Updated folder structure"
+	git push
+	
+24. VSC:
+	Add files to empty folders (css, js, assets)
+
+23. Terminal:
+	git add .
+	git commit -m "Added files to empty folders"
+	git push
+
+25. VSC: 
+	We’ve been making changes to the html files
+	Install Prettier - Code Formatter, and reload
+
+26. Terminal
+	git add .
+	git commit -m "Added header, added footer, and connected all pages"
+	git push
+
+27. Changed the name of my README.rtf to notes.rtf
+
+28. VSC:
+	Creat readme.md
+
+29. Terminal:
+	git add .
+	git commit -m "Changed README and notes"
+	git push
+	git add .
+	git commit -m "Updated readme.md"
+	git push
+
+30. VSC:
+	Create .gitignore
+	Create personal folder and secret file
+	Write /personal inside .gitignore
+
+31. Terminal:
+	git add .
+	git commit -m "Created .gitignore and personal folder"
+	git push
+
+32. SVC:
+    Deleted notes.rtf
+    Created notes.txt
+    git add .
+    git commit -m "Deleted notes.rtf and created notes.txt"
+    git push
