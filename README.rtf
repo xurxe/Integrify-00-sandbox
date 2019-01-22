@@ -5,22 +5,32 @@
 \margl1440\margr1440\vieww10800\viewh8400\viewkind0
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 This is what we did on 22.jan.2018!\
+\f0\fs24 \cf0 This file contains my notes for Integrify 22.jan.2018!\
 \
 1. Install Visual Studio Code\
+\
 2. Create folder for repository Desktop/Integrify/git-lesson\
+\
 3. Add folder to Visual Studio Code and create index.html file\
+\
 4. Terminal:\
 	git --version \'97> tells you what version you\'92re using\
 	cd <folder> \'97> takes you to that folder\
 	cd .. \'97> takes you back one step in the hierarchy\
+\
 5. Write code on index.html file\
+\
 6. Save and open file on Chrome\
+\
 6. Install Node.js\
+\
 7. Run command line:\
 	npm install -g live-server\
+\
 8. If number 7 doesn\'92t work, go to Visual Studio Code > Extensions > Live Server\
+\
 9. Missing step on how to use that???\
+\
 10. Terminal:\
 	git init \'97> initializes git repository and creates .git subfolder\
 	git status\
@@ -29,10 +39,14 @@
 	git status\
 	git commit -m \'93Initial commit\'94\
 	git log\
+\
 11. Edit and save index.html\
+\
 12. Terminal:\
 	git status \'97> there are modified files!\
+\
 13. Teacher draws diagram: working directory \'97> staging area \'97> committed\
+\
 14. Terminal:\
 	git add index.html \'97> stage\
 	git reset HEAD index.html \'97> unstage (did this reset also the README.rtf file???)\
@@ -41,29 +55,47 @@
 	git commit -m \'93Second commit\'94\
 	git log\
 	git log --oneline\
+\
 15. Visual Studio Code:\
 	create skills.html file\
+\
 16. Terminal: \
 	git status\
 	git add skills.html\
 	git status\
 	git commit -m \'93Added skills.html file\'94\
 	git log --oneline\
+\
 17. Go to GitHub > + > New repository. I created one called git-lesson, the teacher created one called portfolio\
+\
 18. Terminal:\
 	\cf2 \expnd0\expndtw0\kerning0
 \outl0\strokewidth0 \strokec2 git remote add origin https://github.com/xurxe/git-lesson.git\
 	git push -u origin master\
+\
 19. Go to https://github.com/xurxe/git-lesson/commits and check it\'92s all there!\
+\
 20. VSC:\
 	Create contact.html\
 	Create projects.html\
+\
 21. Terminal:\
 	git add . \'97> add everything in the current folder\
 	git commit -m "Added contact.html and projects.html"\
+\
 22. VSC:\
 	Create folders:  html, css, js, assets.\
 	Move all html files (except index.html) into html folder\
+\
 23. Terminal:\
 	git add .\
+	git commit -m "Updated folder structure"\
+	git push\
+	\
+24. Add files to empty folders (css, js, assets)\
+\
+23. Terminal:\
+	git add .\
+	git commit -m "Added files to empty folders"\
+	git push\
 }
