@@ -8,7 +8,7 @@
 \f0\fs24 \cf0 1. Install Visual Studio Code\
 2. Create folder for repository Desktop/Integrify/git-lesson\
 3. Add folder to Visual Studio Code and create index.html file\
-4. Try out command lines\
+4. Terminal:\
 	git --version \'97> tells you what version you\'92re using\
 	cd <folder> \'97> takes you to that folder\
 	cd .. \'97> takes you back one step in the hierarchy\
@@ -19,9 +19,22 @@
 	npm install -g live-server\
 8. If number 7 doesn\'92t work, go to Chrome Web Store and add Live Server Web Station.\
 9. Missing step on how to use that???\
-10. Run command line:\
+10. Terminal:\
 	git init \'97> initializes git repository and creates .git subfolder\
 	git status\
 	git add index.html\
 	git add README.rtf\
-	git status}
+	git status\
+	git commit -m \'93Initial commit\'94\
+	git log\
+11. Edit and save index.html\
+12. Terminal:\
+	git status \'97> there are modified files!\
+13. Teacher draws diagram: working directory \'97> staging area \'97> committed\
+14. Terminal:\
+	git add index.html \'97> stage\
+	git reset HEAD index.html \'97> unstage (did this reset also the README.rtf file???)\
+	git add index.html \'97> stage again\
+	git add README.rtf\
+\
+}
