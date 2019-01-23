@@ -198,4 +198,25 @@ WEDNESDAY 23.JAN.2019
 40. Info sources for html, css, js
 	developers.mozilla.org 
 	w3schools.com 
-	stackoverflow.com 
+	stackoverflow.com
+
+41. VSC
+	changed name of file from notes.txt to classnotes.txt
+
+42. Terminal
+	git add .
+	git commit -m "Changed name of file from notes.txt to classnotes.txt"
+	git push
+
+43. VSC
+	<strong>
+	<em>
+	<span>
+	<b>
+	<video> + source and alternatives (graceful deprecation)
+	<details>
+
+44. Terminal
+	git add .
+	git commit -m "Added phrase strong, em, span, b, video, and details tags"
+	git push
