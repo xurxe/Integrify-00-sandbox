@@ -1,0 +1,41 @@
+/* Our css file */
+
+/* =====HEADER===== */
+
+img {
+    width: 50%;
+    border-radius: 5%;
+}
+
+/*
+header div {
+    border: 2px solid purple;
+    display: inline-block;
+}
+*/
+
+.head-wrapper {
+    display: inline-flex;
+}
+
+.head-wrapper div{
+    width: 33.33%;
+    height: 200px;
+    border: 2px solid purple;
+}
+
+#header-nav li {
+    display: inline-block;
+    margin-right: 10%;
+}
+
+#header-nav li a {
+    text-decoration: none;
+}
+
+/* =====BODY===== */
+
+/* =====FOOTER===== */
+#footer-nav li {
+
+}

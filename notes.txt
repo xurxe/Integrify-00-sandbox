@@ -2,6 +2,8 @@ These are my class notes! :)
 
 
 
+
+
 TUESDAY 22.JAN.2019
 
 1. Install Visual Studio Code (VSC)
@@ -141,6 +143,8 @@ TUESDAY 22.JAN.2019
 
 
 
+
+
 WEDNESDAY 23.JAN.2019
 
 33. Terminal 
@@ -157,13 +161,30 @@ WEDNESDAY 23.JAN.2019
 	git status
 
 36. VSC (index.html)
-	<h1> to <h6>
-	<p>
+	<h1> to <h6> --> headings
+	<p> --> paragraph
 	lorem[number] --> generates [number] words of lorem
-	<div>
-	<br /> --> line break (note: <br> also works but it's not valid e.g. it doesn't work in react)
+	<div> --> division
+	<br /> --> line break
 	<hr /> --> horizontal line
 	Inline styles
 	Internal style
 	Importing images (image width in % is % of original on browser, % of screen on mobile)
 	<address>
+	(note on self-closing tags: better to write them as e.g. <br />. They also work without the final / but this is not valid and may cause problems e.g. in React)
+
+37. Terminal
+	git add .
+	git commit -m "Changed folder structure, added elements, added inline and interal style"
+	git push
+
+38. VSC
+	removed inline style from index.html
+	moved internal style from index.html to style.css
+	wrapped all header elements in <div>, and wrapped those in <div class="header-wrapper">
+	comments in css /* [comment] */
+	comments in html
+	display property, inline vs inline-block: inline can't give them width, height, etc. inline-block can
+	text-decoration
+	class selectors
+	id selectors

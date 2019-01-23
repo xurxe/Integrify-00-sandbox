@@ -2,38 +2,25 @@
 <html>
     <head>
         <title>Portfolio</title>
-        <style>
-        /*
-        div {
-            width: 100px;
-            height: 100px;
-            border: 2px solid green;
-        }
-        */
-        img {
-            width: 20%;
-            border-radius: 5%;
-        }
-        header div {
-            border: 2px solid purple;
-            display: inline-block;
-        }
-        </style>
+        <link rel="stylesheet" href="./css/style.css" />
     </head>
     <body>
         <header>
-            <div>
-                <img src ="./assets/images/Xurxe.jpg" alt="Close-up of Xurxe looking jolly at the camera while holding conifer branches on a snowy landscape" /> 
+            <div class="head-wrapper">
+                <div>
+                    <img src ="./assets/images/Xurxe.jpg" alt="Close-up of Xurxe looking jolly at the camera while holding conifer branches on a snowy landscape" /> 
+                </div>
+                <div>
+                       <h1>Xurxe</h1>
+                </div>
+                <div>
+                    <address>
+                           Helsinki, Finland
+                    </address>
+                </div>
             </div>
-            <div>
-                <h1>Xurxe</h1>
-            </div>
-            <div>
-                <address>
-                    Helsinki, Finland
-                </address>
-            </div>
-            <ul>
+            
+            <ul id="header-nav">
                 <li><a href= "./index.html">Home</a></li>
                 <li><a href= "./html/skills.html">Skills</a></li>
                 <li><a href= "./html/projects.html">Projects</a></li>
@@ -54,10 +41,22 @@
         <div style="width:100px; height:100px; border: 2px solid green;">Part 1</div>
         <div>Part 2</div>
         <div>Part 3</div>
+        <button>This is a button.</button>
         
+        <h4>Skills we will learn:</h4>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Redux</li>
+            <li>Note</li>
+            <li>MongoDB</li>
+        </ol>
+
         <hr />
         <footer>
-            <ul>
+            <ul id="footer-nav">
                 <li><a href= "#">GitHub</a></li>
                 <li><a href= "#">LinkedIn</a></li>
                 <li><a href= "#">Medium</a></li>
