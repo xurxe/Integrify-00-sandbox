@@ -188,3 +188,14 @@ WEDNESDAY 23.JAN.2019
 	text-decoration
 	class selectors
 	id selectors
+	background
+
+39. Terminal
+	git add .
+	git commit -m "Improved CSS stylesheet"
+	git push
+
+40. Info sources for html, css, js
+	developers.mozilla.org 
+	w3schools.com 
+	stackoverflow.com 

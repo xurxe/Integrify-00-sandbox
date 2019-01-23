@@ -36,6 +36,7 @@ header div {
 /* =====BODY===== */
 
 /* =====FOOTER===== */
-#footer-nav li {
 
+footer {
+    background: lightblue;
 }
