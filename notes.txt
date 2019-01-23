@@ -1,4 +1,8 @@
-This file contains my notes for Integrify 22.jan.2018!
+These are my class notes! :)
+
+
+
+TUESDAY 22.JAN.2019
 
 1. Install Visual Studio Code (VSC)
 
@@ -133,3 +137,33 @@ This file contains my notes for Integrify 22.jan.2018!
     git add .
     git commit -m "Deleted notes.rtf and created notes.txt"
     git push
+
+
+
+
+WEDNESDAY 23.JAN.2019
+
+33. Terminal 
+	cd Desktop/Integrify/git-lesson
+	git status
+	ls -a
+
+34. VSC
+	Create subfolders in assets (images, video, audio)
+	TO DO: add some new files
+
+35. Terminal
+	git add .
+	git status
+
+36. VSC (index.html)
+	<h1> to <h6>
+	<p>
+	lorem[number] --> generates [number] words of lorem
+	<div>
+	<br /> --> line break (note: <br> also works but it's not valid e.g. it doesn't work in react)
+	<hr /> --> horizontal line
+	Inline styles
+	Internal style
+	Importing images (image width in % is % of original on browser, % of screen on mobile)
+	<address>
