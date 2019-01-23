@@ -196,7 +196,7 @@ WEDNESDAY 23.JAN.2019
 	git push
 
 40. Info sources for html, css, js
-	developers.mozilla.org 
+	developers.mozilla.org
 	w3schools.com 
 	stackoverflow.com
 
@@ -220,3 +220,13 @@ WEDNESDAY 23.JAN.2019
 	git add .
 	git commit -m "Added phrase strong, em, span, b, video, and details tags"
 	git push
+
+45. VSC
+	embedding YouTube video
+	iframes
+	forms, labels, input types
+
+46. DOM (Document Object Model)
+	explained basics
+	talked about the tree structure of contact.html
+	reminder: doctype is not an html tag, it's a declaration
