@@ -230,3 +230,8 @@ WEDNESDAY 23.JAN.2019
 	explained basics
 	talked about the tree structure of contact.html
 	reminder: doctype is not an html tag, it's a declaration
+
+47. Terminal
+	git add .
+	git commit -m "Added form"
+	git push
