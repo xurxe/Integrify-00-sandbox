@@ -235,3 +235,15 @@ WEDNESDAY 23.JAN.2019
 	git add .
 	git commit -m "Added form"
 	git push
+
+
+
+
+THURSDAY 24.JAN.2019 
+
+48. JSC
+	form checkboxes
+	id and for
+	placeholder text
+	submit button
+	tables (how to create and style)

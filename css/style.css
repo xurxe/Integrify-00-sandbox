@@ -33,9 +33,23 @@ header div {
     text-decoration: none;
 }
 
-/* =====BODY===== */
+/* =====MAIN===== */
 span {
     color: green;
+}
+
+table {
+    width: 80%;
+    margin: auto; /* centers */
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th,td {
+    width: 1%; /* 20% is the precise amount, (100% / 5), but if you give anything below it but more than 0, it comes out even anyways*/
 }
 
 /* =====FOOTER===== */
