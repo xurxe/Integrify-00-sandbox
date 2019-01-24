@@ -273,4 +273,5 @@ THURSDAY 24.JAN.2019
 	git branch
 	git add .
 	git commit -m "Saved forgotten changes"
-	git push ?
+	git push
+	lalalalalala
