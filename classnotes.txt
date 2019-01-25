@@ -274,4 +274,7 @@ THURSDAY 24.JAN.2019
 	git add .
 	git commit -m "Saved forgotten changes"
 	git push
-	lalalalalala
+
+54. W3C validator
+	watch out! it flagged a lot of the teacher's code
+	TODO: 
