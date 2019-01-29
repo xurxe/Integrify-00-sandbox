@@ -277,6 +277,7 @@ THURSDAY 24.JAN.2019
 
 54. W3C validator
 	watch out! it flagged a lot of the teacher's code
+<<<<<<< HEAD
 	TODO: validate our own portfolios
 
 
