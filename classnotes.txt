@@ -273,4 +273,59 @@ THURSDAY 24.JAN.2019
 	git branch
 	git add .
 	git commit -m "Saved forgotten changes"
-	git push ?
+	git push
+
+54. W3C validator
+	watch out! it flagged a lot of the teacher's code
+	TODO: validate our own portfolios
+
+
+MONDAY 28.JAN.2019
+
+55. Meta tags: charset, description, keywords, author, viewport
+	search engine optimization: max 150 characters, descriptive, catchy, unique, your name, etc
+
+56. Fontawesome:
+	go to https://fontawesome.com/start
+	copy link, and paste on html ABOVE your css stylesheet link
+	insert with <i>
+	style like any other font!
+	tip: colorzilla color picker
+	tip: download icons locally, then deploy
+	alternatives: glyphicons, etc
+
+57. CSS selectors
+	by tag: p {}
+	by class: .para {}
+	by tag + class: main.p {}
+	by id: #paragraph1 
+	you can assign class="para paragraph1"!!!! must learn more about this ("multiple classes")
+	pseudo-classes
+		a:link
+		a:visited
+		a:hover
+
+58. More CSS
+	padding
+	opacity
+	colors
+	caniuse.com
+	background
+
+59. HTML5 form validation
+
+TUESDAY 29.JAN.2019
+
+60. Regular expressions
+	https://regex101.com/ and flags
+	please note! regex detects any string that matches, but to validade the text input in a form you need the entire input to match/pass
+	
+61. Positioning
+	https://www.w3schools.com/css/css_positioning.asp
+	margin: auto only works if width is specified (otherwise the width is 100%, so there's no margin)
+	position: absolute is in reference to the parent's borders
+	position:absolute, right:10px means 10 pixels AWAY FROM the right edge TOWARDS the left
+	position:relative is in reference to the most immediate parent with a set position
+	NOTE! all style assigned to children overrides the style inherited from parents
+	position:fixed and the need for margins
+	position:sticky --> changes between fixed and relative
