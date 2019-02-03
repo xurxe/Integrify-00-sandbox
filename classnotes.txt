@@ -330,3 +330,58 @@ TUESDAY 29.JAN.2019
 	NOTE! all style assigned to children overrides the style inherited from parents
 	position:fixed and the need for margins
 	position:sticky --> changes between fixed and relative
+
+FRIDAY 01.FEB.2019
+
+62. Semantic elemnts: section, article, etc
+
+63. Form:
+	fieldset and legend
+	wrap form labels and input together (fieldset or div)
+	bootstrap class naming. e.g. form-group or form-fieldset
+	emmet: div.form-group*3
+	form-control
+	writing good form validation feedback messages	
+	selectors
+
+64. branches
+	teacher created branches but has been working on the master instead; now wants to merge and solve conflicts
+	(that's not the usual way, your develop master should be ahead)
+	flow should be feature/fix/release/etc --> develop --> master
+	if you want to merge into the master, you need to be currently in the master
+	he got a merge conflict error, so he went to stackoverflow to search for solutions
+	did some trial and error
+
+65. VSC
+	installed GitLens to help find and solve the conflicts
+	git checkout master
+	git merge develop
+	.... bunch of stuff
+
+66. VSC (my own process, must check if correct)
+	make changes to features --> modified header background so it's easy to see we're not on master
+	git add .
+	git commit -m "modified header background"
+	git push --> updates GitHub repository
+
+	git checkout develop
+	git status
+	git pull --> make sure local develop branch is up to date with GitHub
+	git merge features --> merge features branch to develop
+	git commit
+	git push
+
+	git checkout master
+	git status
+	git pull --> make sure local master branch is up to date with GitHub
+	git merge develop
+	git commit
+	git push
+
+
+
+
+
+	
+
+
