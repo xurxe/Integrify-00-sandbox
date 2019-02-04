@@ -378,6 +378,12 @@ FRIDAY 01.FEB.2019
 	git commit
 	git push
 
+MONDAY 4.FEB.2019
+
+67. VSC: flexbox
+	main axis vs cross axis
+	
+
 
 
 
