@@ -382,6 +382,20 @@ MONDAY 4.FEB.2019
 
 67. VSC: flexbox
 	main axis vs cross axis
+
+TUESDAY 5.FEB.2019
+
+68. https://www.coursera.org/
+
+69. Pseudoelements
+	- first-line: applies style to first line only (if you change the width, the words on the first line also change)
+	- first-letter: same, but just one letter
+	- selection: applies style to selected text
+	- before: places a certain content before the target
+	- after: places a certain content before the target
+
+70. https://css-tricks.com/the-shapes-of-css/
+
 	
 
 
