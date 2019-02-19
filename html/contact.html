@@ -19,6 +19,10 @@
             id="firstname"
             name="firstname"
             placeholder="First name"
+            required
+            pattern="[A-Z]{1}[a-z]{1,14}"
+            minlength="2"
+            maxlength="15"
             /> <br />
             
             <label for="lastname">Last name:</label>
@@ -29,7 +33,11 @@
             /> <br />
             
             <label>Age:</label>
-            <input type="number" /> <br />
+            <input
+            type="number"
+            required
+            minlength="18"
+            maxlength="200"/> <br />
 
             <label>Date of birth:</label>
             <input type="date" /> <br />
@@ -53,13 +61,18 @@
             <input type="email"
             id="email"
             name="email"
-            placeholder="for@example.com"/> <br />
+            placeholder="email@example.com"
+            required
+
+            /> <br />
             
             <label for="password">Password:</label>
             <input type="password"
             id="password"
             name="password"
             placeholder="password"
+            minlength="8"
+            maxlength="32"
             /> <br />
             
             <label>Skills:</label>

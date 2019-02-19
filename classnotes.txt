@@ -241,9 +241,184 @@ WEDNESDAY 23.JAN.2019
 
 THURSDAY 24.JAN.2019 
 
-48. JSC
+48. VSC
 	form checkboxes
 	id and for
 	placeholder text
 	submit button
 	tables (how to create and style)
+
+49. Terminal
+	git add .
+	git commit -m "Finished form and added table"
+	git push
+
+50. VSC
+	changed header color to yellow
+
+51. Terminal
+	git branch develop --> create branch called "develop"
+	git branch --> check branches
+	git checkout develop --> moves to develop branch
+	git status
+	git add .
+	git commit -m "New footer color"
+	git push --set-upstream origin develop
+	git push -u origin develop
+
+52. VSC
+	saved some changes i forgot
+	
+53. Terminal
+	git branch
+	git add .
+	git commit -m "Saved forgotten changes"
+	git push
+
+54. W3C validator
+	watch out! it flagged a lot of the teacher's code
+<<<<<<< HEAD
+	TODO: validate our own portfolios
+
+
+MONDAY 28.JAN.2019
+
+55. Meta tags: charset, description, keywords, author, viewport
+	search engine optimization: max 150 characters, descriptive, catchy, unique, your name, etc
+
+56. Fontawesome:
+	go to https://fontawesome.com/start
+	copy link, and paste on html ABOVE your css stylesheet link
+	insert with <i>
+	style like any other font!
+	tip: colorzilla color picker
+	tip: download icons locally, then deploy
+	alternatives: glyphicons, etc
+
+57. CSS selectors
+	by tag: p {}
+	by class: .para {}
+	by tag + class: main.p {}
+	by id: #paragraph1 
+	you can assign class="para paragraph1"!!!! must learn more about this ("multiple classes")
+	pseudo-classes
+		a:link
+		a:visited
+		a:hover
+
+58. More CSS
+	padding
+	opacity
+	colors
+	caniuse.com
+	background
+
+59. HTML5 form validation
+
+TUESDAY 29.JAN.2019
+
+60. Regular expressions
+	https://regex101.com/ and flags
+	please note! regex detects any string that matches, but to validade the text input in a form you need the entire input to match/pass
+	
+61. Positioning
+	https://www.w3schools.com/css/css_positioning.asp
+	margin: auto only works if width is specified (otherwise the width is 100%, so there's no margin)
+	position: absolute is in reference to the parent's borders
+	position:absolute, right:10px means 10 pixels AWAY FROM the right edge TOWARDS the left
+	position:relative is in reference to the most immediate parent with a set position
+	NOTE! all style assigned to children overrides the style inherited from parents
+	position:fixed and the need for margins
+	position:sticky --> changes between fixed and relative
+
+FRIDAY 01.FEB.2019
+
+62. Semantic elemnts: section, article, etc
+
+63. Form:
+	fieldset and legend
+	wrap form labels and input together (fieldset or div)
+	bootstrap class naming. e.g. form-group or form-fieldset
+	emmet: div.form-group*3
+	form-control
+	writing good form validation feedback messages	
+	selectors
+
+64. branches
+	teacher created branches but has been working on the master instead; now wants to merge and solve conflicts
+	(that's not the usual way, your develop master should be ahead)
+	flow should be feature/fix/release/etc --> develop --> master
+	if you want to merge into the master, you need to be currently in the master
+	he got a merge conflict error, so he went to stackoverflow to search for solutions
+	did some trial and error
+
+65. VSC
+	installed GitLens to help find and solve the conflicts
+	git checkout master
+	git merge develop
+	.... bunch of stuff
+
+66. VSC (my own process, must check if correct)
+	make changes to features --> modified header background so it's easy to see we're not on master
+	git add .
+	git commit -m "modified header background"
+	git push --> updates GitHub repository
+
+	git checkout develop
+	git status
+	git pull --> make sure local develop branch is up to date with GitHub
+	git merge features --> merge features branch to develop
+	git commit
+	git push
+
+	git checkout master
+	git status
+	git pull --> make sure local master branch is up to date with GitHub
+	git merge develop
+	git commit
+	git push
+
+MONDAY 4.FEB.2019
+
+67. VSC: flexbox
+	main axis vs cross axis
+
+TUESDAY 5.FEB.2019
+
+68. https://www.coursera.org/
+
+69. Pseudoelements
+	- first-line: applies style to first line only (if you change the width, the words on the first line also change)
+	- first-letter: same, but just one letter
+	- selection: applies style to selected text
+	- before: places a certain content before the target
+	- after: places a certain content before the target
+
+70. https://css-tricks.com/the-shapes-of-css/
+
+
+THURSDAY 8.FEB.2019
+
+71. CSS grid
+	rows and columns
+	sizing
+	gap
+	grid-columns
+	span
+	negative line numbers
+	justify-content
+	justify-items
+	align-content
+	align-items
+
+
+MONDAY 18.FEB.2019
+
+72. We got started with JS! See script.js for more details.
+
+
+
+
+	
+
+
