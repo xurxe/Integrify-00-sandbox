@@ -396,8 +396,25 @@ TUESDAY 5.FEB.2019
 
 70. https://css-tricks.com/the-shapes-of-css/
 
-	
 
+THURSDAY 8.FEB.2019
+
+71. CSS grid
+	rows and columns
+	sizing
+	gap
+	grid-columns
+	span
+	negative line numbers
+	justify-content
+	justify-items
+	align-content
+	align-items
+
+
+MONDAY 18.FEB.2019
+
+72. We got started with JS! See script.js for more details.
 
 
 
