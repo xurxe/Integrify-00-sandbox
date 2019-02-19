@@ -15,11 +15,22 @@ header div {
 */
 
 header {
+<<<<<<< HEAD
     background-color: yellow;
+=======
+    background-color: lightgrey;
+    position: fixed;
+    z-index: 3;
+}
+
+main {
+    margin-top: 250px;
+>>>>>>> 611d6f7b58ecd90a0e0c33a5f1681ff250bd8b3b
 }
 
 .head-wrapper {
     display: inline-flex;
+    background-image: url(https://www.pennington.com/-/media/images/pennington-na/us/blog/seed/all-you-need-to-know-about-zoysia-grass/zoysia-header.jpg)
 }
 
 .head-wrapper div{
@@ -35,6 +46,12 @@ header {
 
 #header-nav li a {
     text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+    border: 1px solid orange;
+    padding: 5px 10px;
 }
 
 /* =====MAIN===== */
@@ -59,5 +76,57 @@ th,td {
 /* =====FOOTER===== */
 
 footer {
-    background: lightblue;
+    background: yellow;
+}
+
+.fab {
+    font-size: 30px;
+}
+
+.fa-github {
+    color: #23292D;
+}
+
+.fa-linkedin {
+    color: #1377B4;
+}
+
+.fa-medium {
+    color: #292929
+}
+
+.fa-twitter {
+    color: #1EA1F2;
+}
+
+.item {
+    border: 2px solid purple;
+    width: 50%;
+    height: 100px;
+    margin: 0;
+    position: relative;
+    left: 100px;
+}
+
+.item1 {
+    background: red;
+    top: 10px;
+}
+
+.item2 {
+    background: green;
+    top: 150px;
+}
+
+.item3 {
+    background: blue;
+    top: 210px;
+}
+
+.sticky-note {
+    padding: 10px;
+    background: skyblue;
+    width: 200px;
+    position: sticky;
+    bottom: 10px;
 }

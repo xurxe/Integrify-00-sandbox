@@ -1,8 +1,8 @@
 # Portfolio
 ## Purpose
-Learning the basics of web development by making a portfolio.
+Learning the basics of web development with Integrify.
 ## Demo
-<a href="https://xurxe.github.io/git-lesson/">Porfolio demo</a>
+<a href="https://xurxe.github.io/git-lesson/">Git lesson demo</a>
 ## Technologies
 - HTML
 - CSS
