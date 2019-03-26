@@ -15,9 +15,6 @@ header div {
 */
 
 header {
-<<<<<<< HEAD
-    background-color: yellow;
-=======
     background-color: lightgrey;
     position: fixed;
     z-index: 3;
@@ -25,7 +22,6 @@ header {
 
 main {
     margin-top: 250px;
->>>>>>> 611d6f7b58ecd90a0e0c33a5f1681ff250bd8b3b
 }
 
 .head-wrapper {
